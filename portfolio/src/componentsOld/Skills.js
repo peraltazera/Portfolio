@@ -10,11 +10,7 @@ import {motion} from 'framer-motion'
 const Skill = ({name, x, y}) => {
     console.log(Math.floor(Math.random() * (30 - (-30) + 1)) + -30)
     return (
-        <motion.div className=' shadow-lg drop-shadow-primary flex items-center justify-center rounded-full font-semibold bg-primary text-dark cursor-pointer absolute 
-        py-1 px-2 text-sm
-        sm:py-2 sm:px-4 sm:text-md
-        md:py-3 md:px-6 md:text-lg
-        '
+        <motion.div className=' flex items-center justify-center rounded-full font-semibold bg-dark text-light py-3 px-6 shadow-dark cursor-pointer absolute'
         whileHover={{scale:1.05}}
         initial={{x:0,y:0}}
         whileInView={{x:x,y:y}}
@@ -134,19 +130,10 @@ const Skills = () => {
 // )
 
 return (
-    <div className='px-8 sm:px-24 md:px-32'>
-        <h2 className=' font-bold text-4xl md:text-6xl lg:text-8xl mt-48 w-full text-center text-light pb-12 sm:pb-0'>Habilidades</h2>
-        <div className=' relative flex items-center justify-center rounded-full 
-        bg-circularDarkSm h-[20vh]
-        xl:bg-circularDark xl:h-screen
-        lg:bg-circularDarkLg lg:h-[80vh]
-        md:bg-circularDarkMd md:h-[50vh]
-        sm:bg-circularDarkSm sm:h-[40vh]
-        '>
-            <motion.div className=' shadow-lg drop-shadow-primary flex items-center justify-center rounded-full font-semibold bg-primary text-dark cursor-pointer
-             p-2 text-sm
-             sm:p-4 sm:text-md
-             md:p-6 md:text-lg' 
+    <>
+        <h2 className=' font-bold text-8xl mt-64 w-full text-center'>Habilidades</h2>
+        <div className=' w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight'>
+            <motion.div className=' flex items-center justify-center rounded-full font-semibold bg-dark text-light p-6 shadow-dark cursor-pointer' 
             whileHover={{scale:1.05}}>
                 Web
             </motion.div>
@@ -176,7 +163,7 @@ return (
             <Skill name="React" x="-38vw" y="-5vw" />
             <Skill name="Figma" x="38vw" y="8vw" />
         </div>
-    </div>
+    </>
 )
 
 }

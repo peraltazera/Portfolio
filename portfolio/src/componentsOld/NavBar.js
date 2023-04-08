@@ -9,9 +9,9 @@ const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter()
 
   return (
-    <Link href={href} className={`${className} relative group ${router.asPath === href ? "font-semibold" : ""} ${router.asPath === href ? "text-primary" : "text-light"}`}>
+    <Link href={href} className={`${className} relative group ${router.asPath === href ? "font-semibold" : ""}`}>
       {title}
-      <span className={` h-[1px] inline-block bg-primary absolute left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300 
+      <span className={` h-[1px] inline-block bg-dark absolute left-0 -bottom-1 group-hover:w-full transition-[width] ease duration-300 
       ${router.asPath === href ? "w-full" : "w-0"}`}>
       </span>
     </Link>
@@ -44,20 +44,20 @@ const NavBar = () => {
 
     <header className=' w-full px-32 py-8 font-medium flex items-center justify-between'>
       <Logo />
-      <nav className='absolute left-[50%] -translate-x-[50%] hidden md:block'>
+      <nav className='absolute left-[50%] -translate-x-[50%]'>
         <CustomLink href='/' title="Inicio" className=' mr-4' />
         <CustomLink href='/about' title="Sobre" className=' mx-4' />
         <CustomLink href='/projects' title="Projetos" className=' mx-4' />
         <CustomLink href='mailto:Victorgamedeveloper@gmail.com' title="Contato" className=' ml-4' />
       </nav>
-      <nav className=' items-center justify-center flex-wrap gap-2 hidden md:flex'>
-        <motion.a href='https://github.com/peraltazera' target={"_blank"} className=' w-6 mx-3'
-          whileHover={{ y:-2 }} whileTap={{ scale:0.9 }}>
-          <GithubIcon />
-        </motion.a>
+      <nav className=' flex items-center justify-center flex-wrap'>
         <motion.a href='https://www.linkedin.com/in/victorpereiradeveloper/' target={"_blank"} className=' w-6 mr-3'
           whileHover={{ y:-2 }} whileTap={{ scale:0.9 }}>
           <LinkedInIcon />
+        </motion.a>
+        <motion.a href='https://github.com/peraltazera' target={"_blank"} className=' w-6 mx-3'
+          whileHover={{ y:-2 }} whileTap={{ scale:0.9 }}>
+          <GithubIcon />
         </motion.a>
       </nav>
     </header>

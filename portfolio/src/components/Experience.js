@@ -10,11 +10,11 @@ const Details = ({position, company, companyLink, time, address, work}) => {
     <li ref={ref} className=' my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
       <LIIcon reference={ref} />
       <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
-        <h3 className=' capitalize font-bold text-2xl'>{position}&nbsp;<a href={companyLink} target={'_blank'} className=' text-primary capitalize'>@{company}</a></h3>
-        <span className=' capitalize font-medium text-dark/75'>
+        <h3 className=' capitalize font-bold text-2xl text-light'>{position} - <span className=' text-primary capitalize'>{company}</span></h3>
+        <span className=' capitalize font-medium text-light/60'>
           {time} | {address}
         </span>
-        <p className=' font-medium w-full'>
+        <p className=' font-medium w-full text-light'>
           {work}
         </p>
       </motion.div>
@@ -33,63 +33,29 @@ const Experience = () => {
   )
 
   return (
-    <div className=' my-64'>
-      <h2 className=' font-bold text-8xl mb-32 w-full text-center'>Experiencias</h2>
+    <div className=' my-32 md:my-64 sm:px-24 md:px-32'>
+       <h2 className=' font-bold text-4xl md:text-6xl lg:text-8xl mb-16 md:mb-32 w-full text-center text-light'>Experiencias</h2>
 
-      <div ref={ref} className=' w-[80%] mx-auto relative'>
+      <div ref={ref} className=' w-[100%] lg:w-[80%] mx-auto relative'>
 
-        <motion.div style={{scaleY: scrollYProgress}} className=' absolute left-9 top-1 w-[4px] h-full bg-dark origin-top' />
+        <motion.div style={{scaleY: scrollYProgress}} className=' absolute left-9 top-1 w-[4px] h-full bg-primary origin-top' />
 
         <ul className=' w-full flex flex-col items-start justify-between ml-4'>
         <Details 
-            position="Software Engineer"
-            company="@Google"
+            position="Desenvolvedor de aplicativos móveis"
+            company="Blue Slime Studios"
             companyLink=""
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="jun de 2019 - set de 2020 · 1 ano 4 meses"
+            address="Brasília e Região · RemotaBrasília"
+            work="Desenvolvimento de aplicativos educacionais que incorporam técnicas de gamificação para otimizar a experiência do usuário e intensificar o processo de aprendizagem."
           />
          <Details 
-            position="Software Engineer"
-            company="@Google"
+            position="Desenvolvedor de jogosDesenvolvedor"
+            company="GoEduca"
             companyLink=""
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-            <Details 
-            position="Software Engineer"
-            company="@Google"
-            companyLink=""
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-       <Details 
-            position="Software Engineer"
-            company="@Google"
-            companyLink=""
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-          <Details 
-            position="Software Engineer"
-            company="@Google"
-            companyLink=""
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="ago de 2018 - fev de 2019 · 7 mesesago"
+            address="Brasília e Região · PresencialBrasília"
+            work="Desenvolvimento de jogos educativos inovadores, utilizando gamificação para aprimorar a experiência de aprendizado e torná-la mais lúdica e eficaz."
           />
         </ul>
       </div>

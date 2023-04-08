@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Link from 'next/link'
 import Image from 'next/image'
 import vp from '../../public/images/logo/VP.png'
-import { LogoDarkIcon, LogoLightIcon, LogoDarkRoxoIcon, LogoDarkBrancoIcon } from './Icons'
+import { LogoIcon } from './Icons'
 
 const MotionLink = motion(Link)
 
@@ -31,7 +31,7 @@ const Logo = () => {
   return (
     <div className='mt-2'>
         <MotionLink href='/'>
-          <LogoDarkRoxoIcon className='!w-16' />
+          <LogoIcon className=' w-20' />
         </MotionLink>
     </div>
   )

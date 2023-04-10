@@ -64,7 +64,7 @@ const projects = () => {
                 <h2 className=' font-bold text-4xl w-full text-light mt-4'>Chess<span className=' text-primary'> &nbsp;|&nbsp; </span>Unity</h2>
                 <p className=' font-medium text-base md:text-lg text-light'>O Open chat é uma plataforma aberta que permite que você se conecte com qualquer pessoa cadastrada no Google Gmail. 
                 Com essa ferramenta, é possível enviar mensagens para amigos, colegas de trabalho e outras pessoas de sua rede.</p>
-                <p className=' font-medium text-light text-base md:text-lg/60'>Unity &nbsp;|&nbsp; C#& &nbsp;|&nbsp; 2D& &nbsp;|&nbsp; Chess& &nbsp;|&nbsp; Webgl &nbsp;|&nbsp; Game</p>
+                <p className=' font-medium text-light/60 text-base md:text-lg'>Unity &nbsp;|&nbsp; C#& &nbsp;|&nbsp; 2D& &nbsp;|&nbsp; Chess& &nbsp;|&nbsp; Webgl &nbsp;|&nbsp; Game</p>
                 <div className=' flex items-center self-start gap-6 flex-wrap'>
                   <Link href='https://play.unity.com/mg/other/build-35w-2' target={'_blank'} className=' mb-4 flex items-center text-primary p-2 px-6 rounded-lg text-lg bg-dark border-primary
                   font-semibold hover:bg-primary hover:drop-shadow-primary hover:text-dark border-2 border-solid hover:border-primary'>Acessar</Link>

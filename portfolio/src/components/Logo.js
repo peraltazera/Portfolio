@@ -29,9 +29,9 @@ const Logo = () => {
   // )
 
   return (
-    <div className='mt-2'>
+    <div className='mt-0 md:mt-2'>
         <MotionLink href='/'>
-          <LogoDarkRoxoIcon className='!w-16' />
+          <LogoDarkRoxoIcon className=' !w-10 md:!w-16' />
         </MotionLink>
     </div>
   )

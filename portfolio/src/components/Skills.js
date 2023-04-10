@@ -134,8 +134,8 @@ const Skills = () => {
 // )
 
 return (
-    <div className='px-8 sm:px-24 md:px-32'>
-        <h2 className=' font-bold text-4xl md:text-6xl lg:text-8xl mt-48 w-full text-center text-light pb-12 sm:pb-0'>Habilidades</h2>
+    <div className='px-8 sm:px-24 md:px-32 mt-32 md:mt-48'>
+        <h2 className=' font-bold text-4xl md:text-6xl lg:text-8xl w-full text-center text-light pb-12 sm:pb-0'>Habilidades</h2>
         <div className=' relative flex items-center justify-center rounded-full 
         bg-circularDarkSm h-[20vh]
         xl:bg-circularDark xl:h-screen

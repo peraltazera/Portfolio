@@ -9,7 +9,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
   return (
     <li ref={ref} className=' my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between'>
       <LIIcon reference={ref} />
-      <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}}>
+      <motion.div initial={{y:50}} whileInView={{y:0}} transition={{duration:0.5, type:"spring"}} className=' flex flex-col gap-2'>
         <h3 className=' capitalize font-bold text-2xl text-light'>{position} - <span className=' text-primary capitalize'>{company}</span></h3>
         <span className=' capitalize font-medium text-light/60'>
           {time} | {address}
@@ -40,7 +40,7 @@ const Experience = () => {
 
         <motion.div style={{scaleY: scrollYProgress}} className=' absolute left-9 top-1 w-[4px] h-full bg-primary origin-top' />
 
-        <ul className=' w-full flex flex-col items-start justify-between ml-4'>
+        <ul className=' w-full flex flex-col items-start justify-between'>
         <Details 
             position="Desenvolvedor de aplicativos móveis"
             company="Blue Slime Studios"

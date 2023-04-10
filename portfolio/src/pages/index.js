@@ -18,10 +18,10 @@ export default function Home() {
         <title>Victor Pereira | Inicio</title>
         <meta name="description" content="Portfolio Victor Pereira" />
       </Head>
-      <main className=' flex items-center text-light w-full mt-24 lg:mt-32 xl:mt-48'>
+      <main className=' flex items-center text-light w-full mt-0 lg:mt-32 xl:mt-48'>
         <Layout className=' pt-0'>
           <div className=' flex flex-col items-center justify-between w-full md:flex-row px-0 md:px-32'>
-            <div className=' w-[100%] flex md:hidden relative xl:flex mb-60 mt-40'>
+            <div className=' w-[100%] flex md:hidden relative xl:flex mb-44 mt-40'>
                   <motion.div initial={{x:0,y:30,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
                     <Image src={profileImg3} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-0 -translate-y-1/2'/>
                   </motion.div>
@@ -38,8 +38,8 @@ export default function Home() {
                     <Image src={profileImg5} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-0 -translate-y-1/2'/>
                   </motion.div>
             </div>
-            <div className=' w-full flex flex-col items-center self-center xl:1/2 px-16 md:px-0 mb-20 md:mb-0'>
-              <AnimatedText text="Minha missão é transformar a vida das pessoas através da inovação tecnológica." className='!text-2xl sm:!text-4xl lg:!text-5xl !text-left !leading-tight' />
+            <div className=' w-full flex flex-col items-center self-center xl:1/2 px-8 md:px-0 mb-20 md:mb-0'>
+              <AnimatedText text="Minha missão é transformar a vida das pessoas através da inovação tecnológica." className='!text-4xl sm:!text-4xl lg:!text-5xl !text-left !leading-tight' />
               <p className=' my-4 text-base font-medium'>
               Sou formado em Jogos Digitais pelo IESB e sou um desenvolvedor multidisciplinar, com conhecimento em Desenvolvimento Front-End, Desenvolvimento
               de Jogos para Desktop, Mobile e Web, bem como em UX/UI Design.

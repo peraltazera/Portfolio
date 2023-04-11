@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Layout from './Layout'
 import Image from 'next/image'
-
+import profileImg from '../../public/images/profile/Programming-amico3.png'
 import profileImg1 from '../../public/images/profile/1.png'
 import profileImg2 from '../../public/images/profile/2.png'
-import profileImg3 from '../../public/images/profile/333.png'
+import profileImg3 from '../../public/images/profile/33.png'
 import profileImg4 from '../../public/images/profile/4.png'
 import profileImg5 from '../../public/images/profile/5.png'
 import AnimatedText from '@/components/AnimatedText'
@@ -21,21 +21,21 @@ export default function Home() {
       <main className=' flex items-center text-light w-full mt-0 sm:mt-16 lg:mt-32 xl:mt-48'>
         <Layout className=' pt-0'>
           <div className=' flex flex-col items-center justify-between w-full md:flex-row px-0 sm:px-8 md:px-32'>
-            <div className=' w-[100%] flex sm:hidden relative xl:flex mb-32 sm:mb-80 xl:mb-0 mt-40 xl:mt-0 top-0'>
+            <div className=' w-[100%] flex sm:hidden relative xl:flex mb-40 sm:mb-80 xl:mb-0 mt-40 xl:mt-0 top-0'>
                   <motion.div initial={{x:0,y:30,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
-                    <Image src={profileImg3} alt='VictorPereira' className=' w-[60%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                    <Image src={profileImg3} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
                   </motion.div>
                   <motion.div initial={{x:0,y:-30,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
-                    <Image src={profileImg1} alt='VictorPereira' className=' w-[60%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                    <Image src={profileImg1} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
                   </motion.div>
                   <motion.div initial={{x:30,y:0,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
-                    <Image src={profileImg4} alt='VictorPereira' className=' w-[60%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                    <Image src={profileImg4} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
                   </motion.div>
                   <motion.div initial={{x:-30,y:0,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
-                    <Image src={profileImg2} alt='VictorPereira' className=' w-[60%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                    <Image src={profileImg2} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
                   </motion.div>
                   <motion.div initial={{x:0,y:30,opacity:0}} animate={{x:0,y:0,opacity:1}} transition={{duration:1}} viewport={{once:true}} className='absolute w-full h-full'>
-                    <Image src={profileImg5} alt='VictorPereira' className=' w-[60%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                    <Image src={profileImg5} alt='VictorPereira' className=' w-[80%] h-auto absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
                   </motion.div>
             </div>
             <div className=' w-full flex flex-col items-center self-center xl:1/2 px-8 md:px-0 mb-20 md:mb-0'>

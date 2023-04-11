@@ -45,7 +45,9 @@ const Education = () => {
             type="Curso Superior de Tecnologia (CST), Jogos Digitais"
             time="jan de 2016 - jun de 2018"
             place="Centro Universitário IESB"
-            info="Os cursos relevantes incluíram programação orientada a objetos (POO), Unity, C#."
+            info="O curso de Jogos Digitais me preparou para a indústria de jogos e tecnologia, combinando habilidades técnicas e criativas. 
+            Aprendi a criar jogos desde o conceito até a implementação final, desenvolvendo habilidades essenciais em design, narrativa, arte 
+            e programação. Estou preparado para contribuir em equipes de desenvolvimento de jogos e crescer em um setor inovador e criativo."
           />
         </ul>
       </div>

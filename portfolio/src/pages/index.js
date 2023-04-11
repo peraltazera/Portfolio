@@ -42,7 +42,7 @@ export default function Home() {
               <AnimatedText text="Minha missão é transformar a vida das pessoas através da inovação tecnológica." className='!text-3xl sm:!text-4xl lg:!text-5xl !text-left !leading-tight' />
               <p className=' my-4 text-base font-medium'>
               Sou formado em Jogos Digitais pelo IESB e sou um desenvolvedor multidisciplinar, com conhecimento em Desenvolvimento Front-End, Desenvolvimento
-              de Jogos para Desktop, Mobile e Web, bem como em UX/UI Design.
+              de Jogos para Desktop, Mobile e Web, além de UX/UI Design.
               </p>
               {/* <AnimatedText text="Turning Vision Into Reality With Code And Design." className='!text-7xl !text-left' />
               <p className=' my-4 text-base font-medium'>

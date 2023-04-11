@@ -46,16 +46,19 @@ const Experience = () => {
             company="Blue Slime Studios"
             companyLink=""
             time="jun de 2019 - set de 2020 · 1 ano 4 meses"
-            address="Brasília e Região · RemotaBrasília"
-            work="Desenvolvimento de aplicativos educacionais que incorporam técnicas de gamificação para otimizar a experiência do usuário e intensificar o processo de aprendizagem."
+            address="Brasília e Região · Remoto"
+            work="Desenvolvimento de aplicativos educacionais que utilizam gamificação para otimizar a experiência do usuário e intensificar o 
+            processo de aprendizagem. Entreguei diversos aplicativos educacionais impactantes que atenderam com sucesso aos objetivos educacionais dos clientes."
           />
          <Details 
-            position="Desenvolvedor de jogosDesenvolvedor"
+            position="Desenvolvedor de jogos"
             company="GoEduca"
             companyLink=""
-            time="ago de 2018 - fev de 2019 · 7 mesesago"
-            address="Brasília e Região · PresencialBrasília"
-            work="Desenvolvimento de jogos educativos inovadores, utilizando gamificação para aprimorar a experiência de aprendizado e torná-la mais lúdica e eficaz."
+            time="ago de 2018 - fev de 2019 · 7 meses"
+            address="Brasília e Região · Presencial"
+            work="Desenvolvimento de jogos educativos inovadores utilizando a gamificação para aprimorar a experiência de aprendizado. Gerenciei projetos e 
+            trabalhei em equipe para entregar jogos que atendiam com sucesso aos objetivos educacionais dos clientes e proporcionavam experiências envolventes e 
+            divertidas aos usuários."
           />
         </ul>
       </div>

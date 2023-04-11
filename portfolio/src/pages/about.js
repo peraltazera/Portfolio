@@ -17,7 +17,7 @@ const about = () => {
       </Head>
       <main className='flex w-full flex-col items-center justify-center'>
         <Layout className=' pt-8'>
-          <div className='  px-8 sm:px-24 md:px-32'>
+          <div className='  px-8 sm:px-24 md:px-32 md:mt-16'>
             <AnimatedText text="Paixão alimenta propósito!" className='mb-14' />
               <p className=' font-medium text-base text-light'>
                 Sou formado em Jogos Digitais pelo IESB e sou um desenvolvedor multidisciplinar, com conhecimento em Desenvolvimento Front-End, Desenvolvimento de Jogos 

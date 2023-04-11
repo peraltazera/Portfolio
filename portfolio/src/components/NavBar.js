@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 
 const NavBar = () => {
 
-  const [menuMobile, setMenuMobile] = useState(true);
+  const [menuMobile, setMenuMobile] = useState(false);
 
   const CustomLink = ({ href, title, className = "" }) => {
     const router = useRouter()
@@ -50,7 +50,9 @@ const NavBar = () => {
       <Logo />
       <div className=' block md:hidden'>
         <button className=' text-light' onClick={() => setMenuMobile(!menuMobile)}>
-          Menu
+          <span className={` bg-light block transition-all h-0.5 w-6 rounded-sm ${menuMobile ? 'rotate-45 translate-y-2' : '-translate-y-0.5'}`}></span>
+          <span className={` bg-light block transition-all h-0.5 w-6 rounded-sm my-1.5 ${menuMobile ? ' opacity-0' : ' opacity-100'}`}></span>
+          <span className={` bg-light block transition-all h-0.5 w-6 rounded-sm ${menuMobile ? '-rotate-45 -translate-y-2' : 'translate-y-0.5'}`}></span>
         </button>
       </div>
       {

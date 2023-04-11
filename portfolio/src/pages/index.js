@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from './Layout'
 import Image from 'next/image'
+
 import profileImg1 from '../../public/images/profile/1.png'
 import profileImg2 from '../../public/images/profile/2.png'
 import profileImg3 from '../../public/images/profile/333.png'

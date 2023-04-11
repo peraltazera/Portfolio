@@ -46,7 +46,7 @@ const NavBar = () => {
     //   </nav>
     // </header>
 
-    <header className=' w-full px-8 sm:px-16 md:px-32 py-8 font-medium flex items-center justify-between'>
+    <header className=' w-full px-8 sm:px-16 md:px-32 py-8 font-medium flex items-center justify-between z-100 bg-dark'>
       <Logo />
       <div className=' block md:hidden'>
         <button className=' text-light' onClick={() => setMenuMobile(!menuMobile)}>

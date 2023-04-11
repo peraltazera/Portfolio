@@ -8,7 +8,6 @@ import { BlockchainIcon, CsharpIcon, CssIcon, FirebaseIcon, HtmlIcon, JsIcon, Ne
 import {motion} from 'framer-motion'
 
 const Skill = ({name, x, y}) => {
-    console.log(Math.floor(Math.random() * (30 - (-30) + 1)) + -30)
     return (
         <motion.div className=' shadow-lg drop-shadow-primary flex items-center justify-center rounded-full font-semibold bg-primary text-dark cursor-pointer absolute 
         py-1 px-2 text-sm

@@ -29,7 +29,7 @@ const projects = () => {
                 cadastrada nela através do Gmail. Com essa ferramenta, é possível enviar mensagens para amigos, colegas de trabalho e outras pessoas da sua rede.</p>
                 <p className=' font-medium text-base md:text-lg text-light/60'>Web &nbsp;|&nbsp; Javascript &nbsp;|&nbsp; HTML &nbsp;|&nbsp; CSS &nbsp;|&nbsp; React &nbsp;|&nbsp; Next.js</p>
                 <div className=' flex items-center self-start gap-6'>
-                  <Link href='https://open-chat-victorpereira.vercel.app/' target={'_blank'} className=' flex items-center text-primary p-2 px-6 rounded-lg text-lg bg-dark border-primary
+                  <Link href='https://openchat-victorpereira.vercel.app/' target={'_blank'} className=' flex items-center text-primary p-2 px-6 rounded-lg text-lg bg-dark border-primary
                   font-semibold hover:bg-primary hover:drop-shadow-primary hover:text-dark border-2 border-solid hover:border-primary'>Acessar</Link>
                   <Link href='https://github.com/peraltazera/Chat' target={'_blank'} className=' flex items-center text-primary p-2 px-6 rounded-lg text-lg bg-dark border-primary
                   font-semibold hover:bg-primary hover:drop-shadow-primary hover:text-dark border-2 border-solid hover:border-primary'>GitHub</Link>
